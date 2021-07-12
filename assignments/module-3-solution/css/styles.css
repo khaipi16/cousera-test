@@ -1,0 +1,61 @@
+
+.navbar{
+
+border: none;
+background-color: teal;
+color: white;
+}
+body{
+	background-color: maroon;
+	color: orange;
+	border: 10px;
+}
+.glyphicon{
+	font-size: 30px;
+	color: orange; 
+
+}
+
+.center{
+	width: 90%;
+	background-color: black;
+
+}
+
+#quantum{
+	color: blue;
+	position: sticky;
+
+}
+.container
+{
+	background-color: grey;
+	color: white;
+	width: 90%;
+	position: sticky;
+}
+.text-center{
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+	color: orange;
+	background-color: teal;
+}
+#myNavbar ul li a {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+.navbar-brand{
+  font-size: 25px;
+  font-weight: 900;	
+}
+
+@media( min-width: 900px){
+	.glyphicon{
+		display: none;
+	}
+}
+
